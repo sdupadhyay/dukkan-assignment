@@ -1,0 +1,132 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+body{
+	margin: 0 !important
+}
+.container {
+	height: 900px;
+}
+.ant-menu-item-selected {
+	background-color: #ffffff1a !important;
+}
+.header-container {
+	padding-left: 20px;
+	display: flex;
+	/* justify-content: space-between; */
+	gap: 170px;
+	text-align: center;
+}
+.first-box {
+	display: flex;
+	gap: 10px;
+}
+.second-box {
+	/* border:1px solid grey; */
+	width: 40%;
+}
+.third-box {
+	display: flex;
+	gap: 20px;
+}
+.third-box div {
+	background-color: #e6e6e6;
+	width: 50px;
+	border-radius: 100%;
+	display: flex;
+	height: 50px;
+	text-align: center;
+	justify-content: center;
+	margin-top: 4px;
+}
+/* .search-bar {
+	width: 100%;
+	background-color: #f2f2f2;
+} */
+.search-bar {
+	border: 1px solid #f2f2f2;
+	width: 100%;
+	border-radius: 5px;
+	padding: 9px 4px 9px 40px;
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+		no-repeat 13px center;
+	background-color: #f2f2f2 !important;
+}
+.overview-section {
+	padding-left: 20px;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	width: 91.5%;
+	align-items: center;
+}
+.statics {
+	padding-left: 20px;
+	display: flex;
+	justify-content: space-between;
+	width: 91.5%;
+	margin-top: 20px;
+}
+.statics > div {
+	padding: 15px;
+	width: 49%;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5px;
+}
+.ant-pagination .ant-pagination-options {
+	display: none !important;
+}
+.ant-pagination-prev {
+	border: 1px solid #f0f0f0;
+}
+.ant-pagination-next {
+	border: 1px solid #f0f0f0;
+}
+.ant-pagination .ant-pagination-item-active {
+	background-color: #1677ff;
+}
+.ant-pagination-item-active a {
+	color: white !important;
+}
+.pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+}
+.order-search .search-bar {
+	background-color: white !important;
+}
+.order-search {
+	width: 20%;
+}
+.order-container {
+	display: flex;
+	justify-content: space-between;
+	width: 95%;
+}
+@keyframes logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	a:nth-of-type(2) .logo {
+		animation: logo-spin infinite 20s linear;
+	}
+}
+
+.card {
+	padding: 2em;
+}
+
+.read-the-docs {
+	color: #888;
+}
